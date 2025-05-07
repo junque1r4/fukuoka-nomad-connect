@@ -3,9 +3,9 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section
-      className="relative flex items-center justify-center min-h-[75vh] bg-gray-700 bg-cover bg-center text-white"
+      className="relative flex items-center justify-center min-h-[75vh] bg-cover bg-center text-white"
       // TODO: Replace with a high-quality Fukuoka background image
-      // style={{ backgroundImage: "url('/path/to/fukuoka-hero-image.jpg')" }}
+      style={{ backgroundImage: "url('/assets/fukuoka_tower.jpg')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
       {/* Dark gradient overlay */}
