@@ -1,10 +1,10 @@
 .walletButton {
-  background-color: #00A9A5 !important;
-  color: #FFFFFF !important;
+  background-color: var(--primary) !important;
+  color: var(--background) !important;
   border: none !important;
   border-radius: 0.375rem !important; /* rounded-md equivalent */
   padding: 0.5rem 1rem !important; /* py-2 px-4 equivalent */
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -15,7 +15,7 @@
 }
 
 .walletButton:hover {
-  background-color: #008b88 !important; /* slightly darker shade of the primary color */
+  background-color: var(--primary-hover) !important; /* slightly darker shade of the primary color */
   transform: scale(1.02);
 }
 
@@ -25,9 +25,9 @@
 }
 
 .walletButton :global(.wallet-adapter-dropdown-list) {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 
 .walletButton :global(.wallet-adapter-dropdown-list-item) {
-  color: #333333;
+  color: var(--gray-800);
 }

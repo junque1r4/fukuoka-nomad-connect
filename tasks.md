@@ -258,7 +258,7 @@
 **Objective:** Apply consistent styling, ensure responsiveness, perform final checks, and deploy the website.
 
 * **4.1. Apply Global Styles & Tailwind Configuration:**
-    * File: `tailwind.config.ts`, `src/app/globals.css`
+    * File: `tailwind.config.js`, `src/app/globals.css`
     * Action: Configure Tailwind theme (colors, fonts from Design Spec). Add global styles (e.g., body background Light Gray `#F8F9FA`, default text color Dark Gray `#343A40`).
     * **Design Choice:** Implement the Color Palette and Typography defined in the Overall Aesthetic section.
 

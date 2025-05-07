@@ -1,8 +1,9 @@
 .footer {
   width: 100%;
-  background-color: #F8F9FA;
+  background-color: var(--gray-100);
   padding: 1.5rem 0;
   margin-top: auto;
+  border-top: 1px solid var(--gray-200);
 }
 
 .container {
@@ -16,8 +17,8 @@
 }
 
 .copyright {
-  color: #6C757D;
-  font-family: var(--font-geist-sans);
+  color: var(--gray-600);
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
   font-size: 0.875rem;
   text-align: center;
 }
@@ -29,15 +30,15 @@
 }
 
 .link {
-  color: #6C757D;
-  font-family: var(--font-geist-sans);
+  color: var(--gray-600);
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
   font-size: 0.875rem;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .link:hover {
-  color: #00A9A5;
+  color: var(--primary);
 }
 
 @media (min-width: 768px) {
