@@ -213,12 +213,12 @@
             * **Card 2: "Quick Links/Next Steps" (Mockup):**
                 * Title (H3): "Explore & Connect" (Dark Gray).
                 * List of links/buttons (styled as simple text links in Teal Blue `#00A9A5` or small **Outline Buttons**):
-                    * "Discover Local Offers..." -> `/features/local-value-network`
+                    * "Discover Local Offers..." -> `/features/local-value`
                     * "Find Gigs & Share Your Skills" -> `/features/skills-hub`
                     * "Support Community Projects (DAO)" -> `/features/community-fund`
 
 * **3.4. Implement Feature Pages (`/features/*`):**
-    * Files: `/features/local-value-network/page.tsx`, `/features/skills-hub/page.tsx`, `/features/community-fund/page.tsx`.
+    * Files: `/features/local-value/page.tsx`, `/features/skills-hub/page.tsx`, `/features/community-fund/page.tsx`.
     * **Design Choice:**
         * **General Layout:** Max-width container. Page background White (`#FFFFFF`).
         * **Title (H1):** Clear feature title (e.g., "Seamless Payments with Solana Pay & FUKU Coin") (Dark Gray, Inter Bold).
