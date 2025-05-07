@@ -1,0 +1,147 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E9ECEF;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoText {
+  font-family: var(--font-geist-sans);
+  font-weight: 600;
+  color: #343A40;
+  font-size: 1.25rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLink {
+  font-family: var(--font-geist-sans);
+  font-weight: 500;
+  color: #343A40;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: #00A9A5;
+}
+
+.mobileMenuButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.mobileNav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 200;
+}
+
+.mobileNavHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dropdownWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownButton {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-geist-sans);
+  font-weight: 500;
+  color: #343A40;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #E9ECEF;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  min-width: 10rem;
+  z-index: 10;
+}
+
+.dropdownOpen .dropdownContent {
+  display: block;
+}
+
+.dropdownItem {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #343A40;
+}
+
+.dropdownItem:hover {
+  background-color: #F8F9FA;
+  color: #00A9A5;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileMenuButton {
+    display: block;
+  }
+
+  .mobileNavOpen {
+    display: flex;
+  }
+}

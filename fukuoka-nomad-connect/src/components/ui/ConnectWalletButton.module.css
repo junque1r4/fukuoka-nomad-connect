@@ -1,0 +1,33 @@
+.walletButton {
+  background-color: #00A9A5 !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 0.375rem !important; /* rounded-md equivalent */
+  padding: 0.5rem 1rem !important; /* py-2 px-4 equivalent */
+  font-family: var(--font-geist-sans);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+}
+
+.walletButton:hover {
+  background-color: #008b88 !important; /* slightly darker shade of the primary color */
+  transform: scale(1.02);
+}
+
+/* Override some of the wallet adapter default styles */
+.walletButton :global(.wallet-adapter-button-start-icon) {
+  margin-right: 0.5rem;
+}
+
+.walletButton :global(.wallet-adapter-dropdown-list) {
+  background-color: #ffffff;
+}
+
+.walletButton :global(.wallet-adapter-dropdown-list-item) {
+  color: #333333;
+}
