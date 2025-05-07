@@ -56,7 +56,7 @@ export default function GetNomadWelcomePass() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-8 md:p-24">
       <div className="z-10 w-full max-w-4xl items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+        <h1 className="text-4xl font-bold mb-8 text-center text-gray-100">
           Fukuoka Nomad Welcome Pass
         </h1>
         
@@ -74,8 +74,8 @@ export default function GetNomadWelcomePass() {
             </div>
             
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-semibold mb-2">Digital Nomad Welcome Pass</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="text-2xl font-semibold mb-2 text-gray-800">Digital Nomad Welcome Pass</h2>
+              <p className="text-gray-700 mb-4">
                 Connect your wallet and mint your exclusive Fukuoka Nomad Welcome Pass NFT to access special perks and experiences in Fukuoka.
               </p>
               

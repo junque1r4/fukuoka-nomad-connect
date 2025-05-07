@@ -6,8 +6,8 @@ export default function CommunityFund() {
     <div className="container mx-auto py-8 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold mb-2 text-gray-800">Community Fund DAO</h1>
-          <p className="text-gray-600">Collectively investing in the Fukuoka nomad ecosystem</p>
+          <h1 className="text-4xl font-bold mb-2 text-gray-100">Community Fund DAO</h1>
+          <p className="text-gray-300">Collectively investing in the Fukuoka nomad ecosystem</p>
         </div>
         
         <div className="mb-12">
@@ -15,12 +15,12 @@ export default function CommunityFund() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-1/2">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-800">What is the Community Fund?</h2>
-                <p className="mb-4">
+                <p className="mb-4 text-gray-700">
                   The Community Fund is a decentralized autonomous organization (DAO) that empowers 
                   Fukuoka Nomad Connect members to collectively fund initiatives that benefit the 
                   local digital nomad ecosystem.
                 </p>
-                <p>
+                <p className="text-gray-700">
                   From hosting educational events to supporting local entrepreneurship, the fund leverages 
                   community governance to direct resources where they can create the most impact.
                 </p>
@@ -39,7 +39,7 @@ export default function CommunityFund() {
         </div>
         
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">How It Works</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-gray-100">How It Works</h2>
           
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
@@ -48,7 +48,7 @@ export default function CommunityFund() {
                   <span className="font-bold">1</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-2">Fund Collection</h3>
+                  <h3 className="text-lg font-medium mb-2 text-gray-800">Fund Collection</h3>
                   <p className="text-gray-600">
                     The Community Fund grows through multiple sources:
                   </p>
@@ -68,7 +68,7 @@ export default function CommunityFund() {
                   <span className="font-bold">2</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-2">Proposal Submission</h3>
+                  <h3 className="text-lg font-medium mb-2 text-gray-800">Proposal Submission</h3>
                   <p className="text-gray-600">
                     Any Nomad Welcome Pass holder can submit a proposal for funding. Proposals typically include:
                   </p>
@@ -88,7 +88,7 @@ export default function CommunityFund() {
                   <span className="font-bold">3</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-2">Community Governance</h3>
+                  <h3 className="text-lg font-medium mb-2 text-gray-800">Community Governance</h3>
                   <p className="text-gray-600">
                     Proposals are voted on by community members. Voting power is determined by:
                   </p>
@@ -110,7 +110,7 @@ export default function CommunityFund() {
                   <span className="font-bold">4</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-2">Implementation & Accountability</h3>
+                  <h3 className="text-lg font-medium mb-2 text-gray-800">Implementation & Accountability</h3>
                   <p className="text-gray-600">
                     Approved proposals receive funding through a milestone-based system:
                   </p>
@@ -127,7 +127,7 @@ export default function CommunityFund() {
         </section>
         
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">Current Fund Statistics</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-gray-100">Current Fund Statistics</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
@@ -148,18 +148,26 @@ export default function CommunityFund() {
         </section>
         
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">Featured Projects</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-gray-100">Featured Projects</h2>
           
           <div className="space-y-6">
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
               <div className="md:flex">
-                <div className="md:w-1/3 bg-gray-200 md:h-auto h-48"></div>
+                <div className="md:w-1/3 md:h-auto h-48">
+                  <Image
+                    src="/assets/coworking.jpeg"
+                    alt="Nomad-Friendly Coworking"
+                    width={300}
+                    height={200}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="p-6 md:w-2/3">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-lg font-medium">Nomad-Friendly Business Directory</h3>
+                    <h3 className="text-lg font-medium text-gray-800">Nomad-Friendly Coworking</h3>
                     <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
                   </div>
-                  <p className="text-gray-500 text-sm mb-3">Funded: 15,000 FUKU • June 2025</p>
+                  <p className="text-gray-600 text-sm mb-3">Funded: 15,000 FUKU • June 2025</p>
                   <p className="text-gray-600 mb-4">
                     Created a comprehensive directory of businesses in Fukuoka that cater to digital nomads,
                     including those with good wifi, workspaces, and English-speaking staff.
@@ -174,13 +182,21 @@ export default function CommunityFund() {
             
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
               <div className="md:flex">
-                <div className="md:w-1/3 bg-gray-200 md:h-auto h-48"></div>
+                <div className="md:w-1/3 md:h-auto h-48">
+                  <Image
+                    src="/assets/tech_conference.jpeg"
+                    alt="Fukuoka Tech Conference 2025"
+                    width={300}
+                    height={200}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="p-6 md:w-2/3">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-lg font-medium">Fukuoka Tech Conference 2025</h3>
+                    <h3 className="text-lg font-medium text-gray-800">Fukuoka Tech Conference 2025</h3>
                     <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">In Progress</span>
                   </div>
-                  <p className="text-gray-500 text-sm mb-3">Funded: 25,000 FUKU • July 2025</p>
+                  <p className="text-gray-600 text-sm mb-3">Funded: 25,000 FUKU • July 2025</p>
                   <p className="text-gray-600 mb-4">
                     A two-day conference bringing together local and international tech professionals 
                     to share knowledge and build connections within the Fukuoka tech ecosystem.
@@ -195,13 +211,21 @@ export default function CommunityFund() {
             
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
               <div className="md:flex">
-                <div className="md:w-1/3 bg-gray-200 md:h-auto h-48"></div>
+                <div className="md:w-1/3 md:h-auto h-48">
+                  <Image
+                    src="/assets/co_living.jpeg"
+                    alt="Nomad Co-Living Space Startup"
+                    width={300}
+                    height={200}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="p-6 md:w-2/3">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-lg font-medium">Nomad Co-Living Space Startup</h3>
+                    <h3 className="text-lg font-medium text-gray-800">Nomad Co-Living Space Startup</h3>
                     <span className="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Voting Active</span>
                   </div>
-                  <p className="text-gray-500 text-sm mb-3">Requested: 35,000 FUKU • Vote ends: August 15, 2025</p>
+                  <p className="text-gray-600 text-sm mb-3">Requested: 35,000 FUKU • Vote ends: August 15, 2025</p>
                   <p className="text-gray-600 mb-4">
                     Seed funding for a new co-living space specifically designed for digital nomads,
                     featuring workspaces, community areas, and integration with the Fukuoka Nomad Connect ecosystem.
@@ -210,7 +234,7 @@ export default function CommunityFund() {
                     <div className="w-full bg-gray-200 rounded-full h-2.5 mb-1">
                       <div className="bg-[#00A9A5] h-2.5 rounded-full" style={{ width: '65%' }}></div>
                     </div>
-                    <div className="flex justify-between text-xs text-gray-500">
+                    <div className="flex justify-between text-xs text-gray-600">
                       <span>65% Approval</span>
                       <span>3 days left</span>
                     </div>
@@ -222,7 +246,7 @@ export default function CommunityFund() {
         </section>
         
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">How to Participate</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-gray-100">How to Participate</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
@@ -257,7 +281,7 @@ export default function CommunityFund() {
         
         <section className="bg-[#F8F9FA] p-6 rounded-lg">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Join the Community Fund DAO</h2>
-          <p className="mb-6">
+          <p className="mb-6 text-gray-700">
             Getting your Nomad Welcome Pass NFT is the first step to participating in 
             the Community Fund governance.
           </p>

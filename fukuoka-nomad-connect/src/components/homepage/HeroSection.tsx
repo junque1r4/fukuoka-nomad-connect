@@ -7,7 +7,7 @@ const HeroSection = () => {
       // TODO: Replace with a high-quality Fukuoka background image
       style={{ backgroundImage: "url('/assets/fukuoka_tower.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+      <div className="absolute inset-0 bg-black opacity-60"></div>{" "}
       {/* Dark gradient overlay */}
       <div className="relative z-10 text-center p-8 max-w-3xl">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-inter">
