@@ -50,16 +50,6 @@ The platform is built on Solana for fast, low-cost transactions.
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser
 
-## 🎨 Design System
-
-The project uses a consistent design system with:
-
-- **Primary Color**: Teal Blue (#00A9A5)
-- **Solana Brand Colors**: Purple (#9945FF) and Green (#14F195)
-- **Secondary Accent**: Amber (#FFC107)
-- **Typography**: Geist Sans font family
-- **Components**: Standardized buttons, cards, and layout elements
-
 ## 📋 Features
 
 ### Local Value Network
@@ -103,25 +93,8 @@ npm test
 npm run test:e2e
 ```
 
-## 📚 Documentation
-
-For more detailed information about using and contributing to this project:
-
-- [User Guide](docs/user-guide.md)
-- [Developer Documentation](docs/developer.md)
-- [API Reference](docs/api-reference.md)
-- [Solana Integration](docs/solana-integration.md)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please check out our [Contributing Guide](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgements
 
 - Fukuoka City for supporting digital nomad initiatives
 - Solana Foundation for blockchain infrastructure
-- All contributors and community members
+- Superteam Japan for hosting the sidetrack
